@@ -16,7 +16,13 @@ function currentLine(deliLine) {
   }
   var lineNumberAndName = [];
   for (let i = 0; i < deliLine.length; i++) {
+<<<<<<< HEAD
     lineNumberAndName.push((i+1) + ". " + deliLine[i]);
   }
   return "The line is currently: " + lineNumberAndName.join(", ");
+=======
+    lineNumberAndName.push(i+1 + ". " + deliLine[i]);
+    return "The line is currently: " + lineNumberAndName.join(", ");
+  }
+>>>>>>> e5d43e2be4a4768849884a693015e8ba6aee75fa
 }
